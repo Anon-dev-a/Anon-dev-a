@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sports</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* Establece la fuente principal del documento como Arial, con una fuente alternativa sans-serif. */
+            color: #333; /* Establece el color del texto a un gris oscuro (#333). */
+            line-height: 1.6; /* Establece el espaciado entre líneas a 1.6 veces el tamaño de la fuente. */
+            padding: 20px; /* Aplica un relleno de 20px alrededor del contenido de la página. */
+        }
+        
+        ul, ol {
+            background-color: #ae00ff; /* Establece un fondo blanco para las listas ordenadas (ol) y desordenadas (ul). */
+            border: 1px solid #ddd; /* Aplica un borde de 1px de ancho y color gris claro (#ddd) alrededor de las listas. */
+            padding: 20px; /* Aplica un relleno de 20px dentro de las listas. */
+        }
+        
+        li {
+            margin-bottom: 10px; /* Aplica un margen inferior de 10px a cada ítem de la lista (li). */
+        }
+        
+        ul li {
+            list-style-type: square; /* Utiliza viñetas cuadradas para los ítems de las listas desordenadas (ul). */
+        }
+        
+        ol li {
+            list-style-type: decimal; /* Utiliza números decimales para los ítems de las listas ordenadas (ol). */
+        }
+        
+        .encabezado-img {
+            background-image: url(https://assets.xboxservices.com/assets/f9/2e/f92e40fd-ffa6-417d-92cb-1fe5c1adc6d7.jpg?n=Xbox-Remote-Play_Image-1400_Starfield_1920x1000_01.jpg); /* Establece una imagen de fondo para el contenedor con la clase encabezado-img. */
+            height: 900px; /* Establece la altura del contenedor a 900px. */
+            background-size: cover; /* Escala la imagen de fondo para cubrir completamente el contenedor, manteniendo la proporción. */
+            display: flex; /* Utiliza el modelo de caja flexible para el contenedor de encabezado. */
+            flex-direction: column; /* Organiza los elementos hijos en una columna. */
+            justify-content: center; /* Centra verticalmente el contenido dentro del contenedor. */
+            align-content: center; /* Centra el contenido del contenedor a lo largo del eje transversal. */
+            align-items: center; /* Alinea los elementos hijos al centro del contenedor. */
+            color: #fff; /* Establece el color del texto a blanco. */
+        }
+        
+        .encabezado-img p {
+            font-size: 20px; /* Establece el tamaño de la fuente de los párrafos dentro de encabezado-img a 20px. */
+        }
+        
+        .encabezado-img h1 {
+            font-size: 50px; /* Establece el tamaño de la fuente de los encabezados h1 dentro de encabezado-img a 50px. */
+            padding: 20px 0; /* Aplica un relleno de 20px arriba y abajo del encabezado h1. */
+        }
+        
+        nav a {
+            display: inline-block; /* Establece que los enlaces del menú de navegación se muestren como bloques en línea. */
+            text-decoration: none; /* Elimina el subrayado de los enlaces del menú de navegación. */
+            color: #ffffff; /* Establece el color del texto de los enlaces del menú de navegación a Blanco. */
+            margin: 0 30px; /* Aplica un margen de 30px a los lados de los enlaces del menú de navegación. */
+            padding: 5px 15px; /* Aplica un relleno de 5px arriba y abajo y 15px a los lados de los enlaces del menú de navegación. */
+            border: radius 30px;; /* Propiedad incorrecta; probablemente debería ser "border-radius: 30px;" para aplicar bordes redondeados. */
+        }
+        
+        nav a:hover {
+            background-color: #000; /* Cambia el color de fondo del enlace a negro cuando se pasa el ratón sobre él. */
+            color: #fff; /* Cambia el color del texto del enlace a blanco cuando se pasa el ratón sobre él. */
+        }
+        
+        header nav ul {
+            list-style: none; /* Elimina los puntos de viñeta predeterminados de la lista de navegación. */
+        }
+        
+        header nav ul li {
+            display: inline; /* Hace que los elementos de la lista de navegación se muestren en línea, uno al lado del otro. */
+            margin-right: 10px; /* Aplica un margen derecho de 10px a cada elemento de la lista de navegación. */
+        }
+        
+        footer {
+            text-align: center; /* Centra el texto dentro del pie de página. */
+            padding: 10px 0; /* Aplica un relleno de 10px arriba y abajo del pie de página. */
+            background: #222; /* Establece el color de fondo del pie de página a un gris muy oscuro (#222). */
+            color: #fff; /* Establece el color del texto del pie de página a blanco. */
+        }
+        
+        footer p {
+            margin: 0; /* Elimina el margen de los párrafos dentro del pie de página. */
+            text-align: center; /* Centra el texto de los párrafos dentro del pie de página. */
+        }
+     
+
+        
+    </style>
+   <header>
+ <nav style="font-size: 80px;">
+        <ul>
+            <li><a href="#Introduccion">Introduccion</a></li>
+            <li><a href="#Populares">Populares</a></li>
+            <li><a href="#Noticias"> Noticias</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+</head>
+<body>
+        <div class="encabezado-img" align="center"  >
+<p>blog informativo</p>
+<h1 style="font-size: 90px;">EL MUNDO DE LOS VIDEOJUEGOS <br> SPORTS</h1>
+<p>todo lo que tienes que saber sobre el mundo de los videojuegos.</p>
+</div>
+
+            </tr>
+        </table>
+    </div>
+
+    <div >
+        <header style="background-color: #f47edf; color: rgb(7, 7, 7); padding: 0px; text-align: center;"> 
+            <h2 id="Introduccion" style="font-size: 100px;">Introduccion</h2>
+        </header>
+    </div>
+
+
+    
+    <div>
+<table>
+    <tr>
+        <td style="font-size: 20px;" >
+                       <h1  style="text-align:center;">
+                Bienvenidos a 
+                <br>EL MUNDO DE LOS VIDEOJUEGOS
+
+            </h1>
+
+                        <p style="text-align: center;">
+                <br> En EL MUNDO DE LOS VIDEOJUEGOS te ofrecemos las últimas noticias, cobertura completa de eventos eSports, análisis detallados y videos exclusivos del mundo de los videojuegos. <br>
+                 Nuestra misión es mantener informados y entretenidos a todos los gamers alrededor del mundo.
+            </p>
+        </td>
+        <td >
+                        
+
+
+ <img src="https://i.pinimg.com/564x/93/8f/5a/938f5af97df9906f7a02eb63f2d935db.jpg" alt="" width="700px">
+        </td>
+    </tr>
+</table>
+    </div>
+
+    <div>
+        <header style="background-color: #f47edf; color: rgb(7, 7, 7); padding: 0px; text-align: center;"> 
+            <h2 id="Populares" style="font-size: 100px;" >Populares</h2>
+        </header>
+    </div>  
+
+
+    <div>
+        <table>
+            <tr>
+                <td>
+                    <img src="https://i.pinimg.com/564x/f8/26/28/f82628c0da58431523a5c361a446ac2b.jpg" alt="">
+                </td>
+                <td>
+                    <h1 style="font-size: 50px;"> SPORTS</h1>
+                    <p style="font-size: 60px;">Aqui encontraras toda la informacion sobre los sports que tenemos disponibles, desde el juego, hora, reglas,etc</p>
+                    <p style="font-size: 60px;">Checa toda nuestra informacion sobre sports dandole clic al siguiente boton:</p>
+
+                </td>
+            </tr>
+
+            <tr >
+                <td >
+                    <h2 style="font-size: 80px;" align="center">Torneos actualmente abiertos</h2>
+
+                 </td>
+            </tr>
+            <tr>
+                <td style="font-size: 40px;">
+                <p>Brawl Stars</p>
+                </td>
+
+                <td>
+                    <button style="font-size: 20px; border-radius: 10px; padding: 10px 20px ; "><a href="https://www.arenagg.com/es/game/brawl-stars" style="text-decoration: none; color: black;">INSCRIBETE</a></button> 
+                </td>
+            </tr>
+            <td style="font-size: 40px;">
+                <p>Fornite</p>
+                </td>
+
+                <td>
+                    <button style="font-size: 20px; border-radius: 10px; padding: 10px 20px ; "><a href="https://www.arenagg.com/es/game/fortnite" style="text-decoration: none; color: black;">INSCRIBETE</a></button> 
+                </td>
+            </tr>
+            <td style="font-size: 40px;">
+                <p>Free Fire</p>
+                </td>
+
+                <td>
+                    <button style="font-size: 20px; border-radius: 10px; padding: 10px 20px ; "><a href="https://www.arenagg.com/es/game/free-fire" style="text-decoration: none; color: black;">INSCRIBETE</a></button> 
+                </td>
+            </tr>
+
+        </tr>
+        <td style="font-size: 40px;">
+            <p>Clash Royale</p>
+            </td>
+
+            <td>
+                <button style="font-size: 20px; border-radius: 10px; padding: 10px 20px ; "><a href="https://www.arenagg.com/es/game/clash-royale" style="text-decoration: none; color: black;">INSCRIBETE</a></button> 
+            </td>
+        </tr>
+            
+        </table>
+    </div>
+
+
+        <div>
+        <header style="background-color: #f47edf; color: rgb(7, 7, 7); padding: 0px; text-align: center;"> 
+            <h2 id="Noticias" style="font-size: 100px;" >Noticias</h2>
+        </header>
+    </div>
+
+
+        <div>
+        <table width="100%" style="font-size: 30px;">
+            <tr>
+                <td align="center" width="90%">
+                    <img src="https://i.blogs.es/c61b6b/halo/1200_800.jpeg" alt="" class="circular" >
+                    <h2>"El Ojo de Sauron mira fijamente a Xbox". Un antiguo trabajador de Microsoft culpa a la compra de Activision Blizzard de los recientes recortes en la empresa
+</h2>
+                                        <P>CONOCE TODO LO PASA EN EL MUNDO GAMING </P>
+                    <button style="font-size: 30px; border-radius: 10px; padding: 10px 20px;"><a href="https://www.3djuegos.com/industria-gaming/noticias/ojo-sauron-mira-fijamente-a-xbox-antiguo-trabajador-microsoft-culpa-a-compra-activision-blizzard-recientes-recortes-empresa" style="text-decoration: none; color: black;">MIRAR ARTICULO</a></button>
+                </td>
+                <tr>
+                    <td  align="center" width="70%">
+                        <img src="https://i.blogs.es/9803e4/baldurs-gate3/1200_800.jpeg" alt="" class="circular">
+                        <h2>"Tengo ganas de centrarme en cosas nuevas". El director de Baldur's Gate 3 quiere pasar página de forma definitiva para trabajar en sus nuevos proyectos</h2>
+                        <P>CONOCE TODO LO PASA EN EL MUNDO GAMING </P>
+                        <button style="font-size: 30px; border-radius: 10px; padding: 10px 20px;"><a href="https://www.3djuegos.com/juegos/baldurs-gate-3/noticias/esta-sera-ultimas-veces-que-hable-juego-director-baldurs-gate-3-quiere-pasar-pagina-forma-definitiva-para-centrarse-sus-nuevos-proyectos" style="text-decoration: none; color: black;">MIRAR ARTICULO</a></button> 
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" width="70%">
+                        <img src="https://i.blogs.es/ff13c0/dragon-s-dogma-2/1200_800.jpeg" alt="" class="circular">
+                        <h2>Capcom ha batido su récord de ingresos por séptimo año consecutivo, y no es gracias a Dragon's Dogma 2. Sus juegos más antiguos ganan más dinero que la mayoría de servicios</h2>
+                        <P>CONOCE TODO LO PASA EN EL MUNDO GAMING </P>
+                        <button style="font-size: 30px; border-radius: 10px; padding: 10px 20px ; "><a href="https://www.3djuegos.com/juegos/monster-hunter-wilds/noticias/capcom-ha-batido-su-record-ingresos-septimo-ano-consecutivo-no-gracias-a-dragons-dogma-2-sus-juegos-antiguos-ganan-dinero-que-mayoria-servicios" style="text-decoration: none; color: black;">MIRAR ARTICULO</a></button> 
+
+
+
+
+                    </td>
+                </tr>
+        </table>
+    </div>
+
+    <div>
+        <center>
+            <h1>Videos</h1>
+            <table>
+                <tr>
+                    <td>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/H8BpKtGITwE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </td>
+    
+                    <td>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/5PRfN0HoAq0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </td>
+                
+                </tr>
+            </table>
+        </center>
+    </div>
+    
+
+
+       <section id="contacto" style="font-size: 70px;">
+        <center>
+    <div class="contact">
+        <h2>Contacta con Nosotros</h2>
+        <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+    </center>
+    </section>
+
+    
+    <footer style="font-size: 70px;">
+        <p>Toda la informacion actual sobre el mundo de los videojuegos.</p>
+    </footer>
+
+
+
+</div>
+
+
+
+<footer >
+    <p>Derechos reservados © 2024</p>
+
+    
+
+ <center>
+<img src="logo.jpeg" class="img" alt="" >
+    </center>
+    
+    
+</footer>
+</body>
+</html>
